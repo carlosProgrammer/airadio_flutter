@@ -3,7 +3,7 @@
 
     {
       "id": 1,
-      "name": "102",
+      "name": "102.3",
       "tagline": "Play On!",
       "color": "0xff04080b",
       "desc": "Playing music regularly will physically alter your brain structure.",
@@ -17,7 +17,7 @@
     },
     {
       "id": 2,
-      "name": "104",
+      "name": "104.5",
       "tagline": "English Hits",
       "color": "0xff066c53",
       "desc": "",
@@ -31,7 +31,7 @@
     },
     {
       "id": 3,
-      "name": "95",
+      "name": "95.1",
       "tagline": "London UK Asian Music",
       "color": "0xff0d487d",
       "desc": "",
@@ -45,13 +45,13 @@
     },
     {
       "id": 4,
-      "name": "94",
+      "name": "94.9",
       "tagline": "Today's Hits",
       "color": "0xff27383e",
       "desc": "",
       "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/977_HITS.mp3",
       "icon": "https://static.radio.net/images/broadcasts/8d/76/3600/1/c175.png",
-      "image": "https://i.ytimg.com/vi/BUnPVjqb0YY/maxresdefault.jpg",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b5df4c18876369.562d0d4bd94cf.jpg",
       "lang": "English",
       "category": "rock",
       "disliked": false,
