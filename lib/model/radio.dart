@@ -59,7 +59,7 @@ class MyRadio {
   final String? url;
   final String? category;
   final String? icon;
-  final String? image;
+  final String image;
   final String? lang;
   MyRadio({
     this.id,
@@ -71,7 +71,7 @@ class MyRadio {
     this.url,
     this.category,
     this.icon,
-    this.image,
+    required this.image,
     this.lang,
   });
 
