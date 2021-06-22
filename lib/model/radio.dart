@@ -3,13 +3,13 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 
 class MyRadioList {
-  final List<MyRadio> radios;
+  final List<MyRadio>? radios;
   MyRadioList({
     this.radios,
   });
 
   MyRadioList copyWith({
-    List<MyRadio> radios,
+    List<MyRadio>? radios,
   }) {
     return MyRadioList(
       radios: radios ?? this.radios,
@@ -18,12 +18,12 @@ class MyRadioList {
 
   Map<String, dynamic> toMap() {
     return {
-      'radios': radios?.map((x) => x?.toMap())?.toList(),
+      'radios': radios?.map((x) => x.toMap()).toList(),
     };
   }
 
-  factory MyRadioList.fromMap(Map<String, dynamic> map) {
-    if (map == null) return null;
+  factory MyRadioList.fromMap(Map<String, dynamic> map){
+    //if (map == null) return null;
 
     return MyRadioList(
       radios: List<MyRadio>.from(map['radios']?.map((x) => MyRadio.fromMap(x))),
@@ -50,17 +50,17 @@ class MyRadioList {
 }
 
 class MyRadio {
-  final int id;
-  final int order;
-  final String name;
-  final String tagline;
-  final String color;
-  final String desc;
-  final String url;
-  final String category;
-  final String icon;
-  final String image;
-  final String lang;
+  final int? id;
+  final int? order;
+  final String? name;
+  final String? tagline;
+  final String? color;
+  final String? desc;
+  final String? url;
+  final String? category;
+  final String? icon;
+  final String? image;
+  final String? lang;
   MyRadio({
     this.id,
     this.order,
@@ -76,17 +76,17 @@ class MyRadio {
   });
 
   MyRadio copyWith({
-    int id,
-    int order,
-    String name,
-    String tagline,
-    String color,
-    String desc,
-    String url,
-    String category,
-    String icon,
-    String image,
-    String lang,
+    int? id,
+    int? order,
+    String? name,
+    String? tagline,
+    String? color,
+    String? desc,
+    String? url,
+    String? category,
+    String? icon,
+    String? image,
+    String? lang,
   }) {
     return MyRadio(
       id: id ?? this.id,
@@ -120,7 +120,7 @@ class MyRadio {
   }
 
   factory MyRadio.fromMap(Map<String, dynamic> map) {
-    if (map == null) return null;
+   // if (map == null) return null;
 
     return MyRadio(
       id: map['id'],
